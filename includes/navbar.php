@@ -1,7 +1,7 @@
 <nav class="navbar   navbar-expand-md navbar-dark">
-    <a class="nav-link" href="index1.php">
+    <a class="nav-link" href="index.php">
         <font class="logobar">?</font>
-        <!--        <i class="fab fa-bitcoin fa-2x bg-light"></i>-->
+        
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
