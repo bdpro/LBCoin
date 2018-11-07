@@ -78,12 +78,12 @@
          }
 
          // Logo
-         $Logo = "<img src='https://s2.coinmarketcap.com/static/img/coins/64x64/" + $Id + ".png' class='img-fluid' alt=" + $Name + " style='width: 25px; margin-right: 12px;'>"
+         $Logo = "<img src='https://s2.coinmarketcap.com/static/img/coins/16x16/" + $Id + ".png' class='img-fluid' alt=" + $Name + " style=' margin-right: 12px;'>"
          
          // tableau html
          $('#cour').append(
              "<tr><td>" +
-             $Rank + "</td><td><a href='info.php?id=" + $Symbol + "&name=" + $Name + "'> " +
+             $Rank + "</td><td><a title='"+ $Name + "' href='info.php?id=" + $Symbol + "&name=" + $Name + "'> " +
              $Logo + "<font style='Font-Weight: Bold;' size='4'>" +
              $Symbol + "</font></br>" +
              $Name + "</a></td><td class='Ptablbtc'>" +
@@ -94,7 +94,7 @@
              $Vol24h + " €</td><td>" +
              $Variation1h + "</td><td>" +
              $Variation24h + "</td><td>" +
-             $Variation7d + "</td><td><a href='info.php?id=" +
+             $Variation7d + "</td><td><a title='"+ $Name + "' href='info.php?id=" +
              $Symbol + "&name=" + $Name + "'><i class='fas fa-chart-line fa-2x '></i></a></td></tr>")
 
      };

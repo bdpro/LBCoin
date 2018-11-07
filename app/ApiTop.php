@@ -12,5 +12,5 @@ $TopCoins= $APIREST->call(
 	array ('X-CMC_PRO_API_KEY:'.$ApiKey)
  
   
-); 
+);
 ?>

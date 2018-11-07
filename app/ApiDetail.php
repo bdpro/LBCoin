@@ -14,7 +14,7 @@ include('Kapi.php');
 //  
 //);
 
- 
+
 
 // Api info
 //$CoinsInfoUrl="https://pro-api.coinmarketcap.com/v1/cryptocurrency/info?symbol=$Isymbol";
