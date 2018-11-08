@@ -17,6 +17,7 @@ include ('includes/navbar.php');
     // Récupération json et trasmphormation des variables php $InfoCoin & $Qcoin ver les variables js $Info & $Qcoin 
     $Info = <?php echo $InfoCoin; ?>;
     $Qcoin = <?php echo $Qcoin; ?>;
+    $Qcoin2 = <?php echo $Qcoin2; ?>;
 </script>
 
 
@@ -26,7 +27,7 @@ include ('includes/navbar.php');
 
             <div class="card">
 
-                <h5 class="card-header" id=Tcard>Prix et Infos du </h5>
+                <h2 class="card-header" id=Tcard>Prix et Infos du </h2>
 
 
 
@@ -124,7 +125,11 @@ include ('includes/navbar.php');
                 </div>
             </div>
             <a href="https://www.coinbase.com/join/59805ce4fd919501509e41a7" target="_blank"> <img src="img/coinbase.jpg" class="img-fluid coinbase" alt="Acheter des Bitcoins"></a>
+            <div>
+            <a href="https://www.ledger.com?r=8dd75a938fc1" target="_blank" ><img class="img-fluid coinbase" alt="Ledger Nano S - The secure hardware wallet" src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-0-0x2-5-0.jpg"></a>
+              </div>  
         </div>
+        
     </div>
 </div>
 

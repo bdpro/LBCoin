@@ -20,7 +20,7 @@
          $Tname = coin.name
          // prix + limite 2 chiffre apres la virgule (toFixed(2))
          $Tprice = coin.quote.EUR.price.toFixed(2)
-         $TpriceBtc = coin.quote.BTC.price.toFixed(2)
+       
 
 
          //Marketcap + limite 2 chiffre apres la virgule (toFixed(2))
@@ -38,6 +38,6 @@
 
          $Tlogo = "<img src='https://s2.coinmarketcap.com/static/img/coins/64x64/" + $Tid + ".png' class='img-fluid' alt=" + $Tname + ">"
 
-         $('#Top').append("<div class=' col-md-4 mx-auto'><a title='"+ $Tname + "' href='info.php?id=" + $Tsymbol + "&name=" + $Tname + "' class='cache'><div class='card'><div class='card-body'><div class='container'><div class='row'><div class='col-md-6 mx-auto'><span class='badge badge-pill badge-primary'>Rang " + $Trank + "</span></br>" + $Tlogo + "<h4>" + $Tname + "</h4><h5>(" + $Tsymbol + ")</h5></div><div class='col-md-6 mx-auto'><div class='text-right'><h2>" + $Tprice + " €</h2><h3>" + $TpriceBtc + " BTC </h3><p>" + $Tvariation1h + "</p><h6>Market Cap : €" + $Tmcap + "</h6></div></div></div></div></div></div></a></div>")
+         $('#Top').append("<div class=' col-md-4 mx-auto'><a title='"+ $Tname + "' href='info.php?id=" + $Tsymbol + "&name=" + $Tname + "' class='cache'><div class='card'><div class='card-body'><div class='container'><div class='row'><div class='col-md-6 mx-auto'><span class='badge badge-pill badge-primary'>Rang " + $Trank + "</span></br>" + $Tlogo + "<h4>" + $Tname + "</h4><h5>(" + $Tsymbol + ")</h5></div><div class='col-md-6 mx-auto'><div class='text-right'><h2>" + $Tprice + " €</h2><p>" + $Tvariation1h + "</p><h6>Market Cap : €" + $Tmcap + "</h6></div></div></div></div></div></div></a></div>")
 
      };

@@ -5,8 +5,3 @@ Options -Indexes
 DirectoryIndex  index.php       
 order deny,allow    
 
-RewriteEngine on
-
-RewriteCond %{QUERY_STRING} (^|&)id=BTC($|&)
-RewriteCond %{QUERY_STRING} (^|&)name=Bitcoin($|&)
-RewriteRule ^info\.php$ /bitcoin?&%{QUERY_STRING}

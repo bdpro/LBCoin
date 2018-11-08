@@ -5,6 +5,8 @@ $Dinfo = $Info.data[$key];
 for ($key in $Qcoin.data);
 $Dcoin = $Qcoin.data[$key];
 
+for ($key in $Qcoin2.data);
+$Dcoin2 = $Qcoin2.data[$key];
 //Creatoin des variables de l API info
 
 $Dname = $Dinfo.name;
@@ -82,7 +84,7 @@ $Dqid = $Dcoin.id
 // Nom
 $Dqname = $Dcoin.name
 //prix en BTC
-$Dqpricebtc = $Dcoin.quote.BTC.price
+$Dqpricebtc = $Dcoin2.quote.BTC.price
 // prix eur + limite 2 chiffre apres la virgule (toFixed(2))
 $Dqprice = $Dcoin.quote.EUR.price.toFixed(2)
 //volume total en circulation
@@ -159,7 +161,7 @@ function ConvertirEnCrypto() {
 function ConvertirEnEuros() {
     if (isNaN(Form1.crypto.value) == true) {
         alert('Merci de saisir un nombre. Conversion Impossible.');
-        Form1.crypto.value = Form1.Euros.value * $Dqprice;
+        Form1.crypto.value.toFixed(2) = Form1.Euros.value * $Dqprice;
     } else {
         Form1.Euros.value = Form1.crypto.value / $Dqprice;
     }

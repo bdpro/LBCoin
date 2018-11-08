@@ -78,7 +78,7 @@
          }
 
          // Logo
-         $Logo = "<img src='https://s2.coinmarketcap.com/static/img/coins/16x16/" + $Id + ".png' class='img-fluid' alt=" + $Name + " style=' margin-right: 12px;'>"
+         $Logo = "<img src='https://s2.coinmarketcap.com/static/img/coins/32x32/" + $Id + ".png' class='img-fluid' alt=" + $Name + " style=' margin-right: 12px;'>"
          
          // tableau html
          $('#cour').append(
@@ -97,6 +97,9 @@
              $Variation7d + "</td><td><a title='"+ $Name + "' href='info.php?id=" +
              $Symbol + "&name=" + $Name + "'><i class='fas fa-chart-line fa-2x '></i></a></td></tr>")
 
+//         sitemap
+//        console.log("<url><loc>http://lbcoin.fr/info.php?id="+ $Symbol +"&amp;name=" + $Name + "</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>"); 
+         
      };
 $('#NbrCoin').append($i);
 

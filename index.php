@@ -55,6 +55,9 @@ $titrePage = "Capitalisation et cours des Crypto-Monnaies.";
         </div>
     </div>
 </div>
+<div class="text-center">
+<a href="https://www.ledger.com?r=8dd75a938fc1"><img class="img-fluid coinbase" width=728 height=90 alt="Ledger Nano S - The secure hardware wallet" src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_7-2-8x9-0.jpg"></a>
+</div>
 
 <script>
     $(document).ready(function() {
